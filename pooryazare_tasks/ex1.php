@@ -37,7 +37,7 @@ $g3 = 5 ;
 
 ?>
 <table>
-    <tr><th>S.n.</th> <th>Name</th> </th>Grade</th><tr>
+    <tr><th>S.n.</th><th>Name</th><th>Grade</th></tr>
 
     <tr>
         <td>1</td>
