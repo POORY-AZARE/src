@@ -20,7 +20,7 @@ body,
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  background-color: #333;
+  background-color: #333333;
   color: white;
 }
 .navbar {
@@ -109,46 +109,7 @@ body,
     margin: 5px 0;
   }
 }
-.car-description-link {
-  text-decoration: none; /* Removes the underline from links */
-  color: inherit; /* Keeps the color the same as the non-link text */
-  display: block; /* Makes the link fill the entire container for easier clicking */
-}
 
-.car-description-link:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.car-gallery {
-  width: 80%;
-  height: auto;
-  display: gray;
-  margin: auto;
-}
-
-.car-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.car-item {
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-.car-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.car-description {
-  text-align: center;
-  padding-top: 10px;
-  color: #ddd;
-}
 footer {
   background-color: #000;
   padding: 20px;

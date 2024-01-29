@@ -12,7 +12,7 @@
         <div class="logo">CARSHOP WEBSITE</div>
         <div class="menu-bar">
         <ul>
-            <li><a href="http://localhost:81/pooryazare_tasks/ex1.php">EXERCISE 1</a></li>
+            <li><a href="http://shell.hamk.fi/~poorya23000/php/pooryazare_tasks/ex1.php">EXERCISE 1</a></li>
             <li><a href="#">EXERCISE 2</a></li>
             <li><a href="#">TEXERCISE 3</a></li>
             <!-- Add more list items for additional tasks -->
