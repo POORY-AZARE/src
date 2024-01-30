@@ -1,18 +1,10 @@
 header {
-  background-image: url("01.jpg");
+  background-image: url("images/01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
   min-height: 1000px;
-}
-
-body,
-.main-content {
-  background-image: url("02.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .navbar {
