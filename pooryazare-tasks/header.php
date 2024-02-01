@@ -16,7 +16,7 @@
          <a href="ex1.php">EXERCISE 1</a>
           <a href="ex2.php">EXERCISE 2</a>
           <a href="ex3.php">EXERCISE 3</a>
-          <a href="#">EXERCISE 4</a>
+          <a href="ex4.php">EXERCISE 4</a>
           <a href="#">EXERCISE 5</a>
           
         </div>
