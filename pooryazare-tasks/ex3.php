@@ -94,6 +94,56 @@ include 'header.php'; ?>
     echo "Length of the Combined String: " . strlen($combinedStr);
 ?>
 
+<h4>Number Addition: Write a script to add up the numbers:
+     298, 234, 46. Use variables to store these numbers and an echo statement to output your answer.</h4>
+
+     <?php
+    $num1 = 298;
+    $num2 = 234;
+    $num3 = 46;
+   
+    $sum = $num1 + $num2 + $num3;
+
+    echo "The sum of the numbers is: " . $sum;
+?>
+
+
+<h4>Browser Detection: Write a PHP script to detect the browser being used 
+    to view your pages. Hint: Use predefined variables: $_SERVER  </h4>
+
+    <?php
+    // Get the User-Agent string from the server variable
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+
+    // Detect the browser
+    if (strpos($userAgent, 'Firefox') !== false) {
+        $browser = 'Mozilla Firefox';
+    } elseif (strpos($userAgent, 'Chrome') !== false) {
+        // Opera also uses the Chrome User Agent, so we need to check for Opera first
+        if (strpos($userAgent, 'OPR') !== false) {
+            $browser = 'Opera';
+        } else {
+            $browser = 'Google Chrome';
+        }
+    } elseif (strpos($userAgent, 'Safari') !== false) {
+        // Chrome also includes the Safari user agent string, so this check must be after Chrome's
+        $browser = 'Safari';
+    } elseif (strpos($userAgent, 'MSIE') !== false || strpos($userAgent, 'Trident') !== false) {
+        $browser = 'Internet Explorer';
+    } elseif (strpos($userAgent, 'Edge') !== false) {
+        $browser = 'Microsoft Edge';
+    } else {
+        $browser = 'Unknown';
+    }
+
+    // Output the browser
+    echo "You are using: " . $browser;
+?>
+<h4>File Modification Time: Write a PHP script in the footer section of your universal footer to display
+     the last modification time of a file. Hint: Use predefined variable $_SERVER, basename function  to get the filename
+     , filetime function to get the last modified time & date function to print the date and time</h4>
+
+
 
 </body>
 

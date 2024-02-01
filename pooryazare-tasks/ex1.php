@@ -24,7 +24,7 @@
     the grades of three students in the course. To display this information, create an HTML table within your PHP code.
      The table should be structured with columns for Serial 
     Number (S.n.), Name, and Grade, and it should look like this:</h3>
-
+   
  <?php
  $g1 = 5 ;
  $g2 = 4 ;

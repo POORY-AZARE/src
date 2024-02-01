@@ -1,6 +1,24 @@
 </main>
 
     <footer>
+    <?php
+    // Get the full path of the current script
+    $filePath = $_SERVER['SCRIPT_FILENAME'];
+
+    // Extract the filename from the path
+    $fileName = basename($filePath);
+
+    // Get the last modified time of the file
+    $lastModifiedTime = filemtime($filePath);
+
+    // Format the timestamp into a readable date and time format
+    $formattedTime = date("F d Y H:i:s", $lastModifiedTime);
+
+    // Display the information
+    echo "<footer>";
+    echo "Last modified: " . $formattedTime . " (File: " . $fileName . ")";
+    echo "</footer>";
+?>
       <div class="footer-rectangle">
         <div class="footer-content">
           <div class="footer-section about">
