@@ -10,13 +10,13 @@ include 'header.php'; ?>
 
     <div class="container mt-5">
         <form method="post" action="wellcom.php">
-            <!-- First Name Field -->
+            <!-- First Name section-->
             <div class="form-group">
                 <label for="firstname">First name:</label>
                 <input type="text" class="form-control" id="firstname" name="firstname" required>
             </div>
 
-            <!-- Last Name Field -->
+            <!-- Last Name section -->
             <div class="form-group">
                 <label for="lastname">Last name:</label>
                 <input type="text" class="form-control" id="lastname" name="lastname" required>
@@ -140,15 +140,10 @@ include 'header.php'; ?>
 
     // Output the browser
     echo "You are using: " . $browser;
-?>
+    ?>
 <h3>8. File Modification Time: Write a PHP script in the footer section of your universal footer to display
      the last modification time of a file. Hint: Use predefined variable $_SERVER, basename function  to get the filename
      , filetime function to get the last modified time & date function to print the date and time</h3>
-
-
-
-</body>
-
 
 
 

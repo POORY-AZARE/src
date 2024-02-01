@@ -53,7 +53,7 @@ switch ($currentMonth) {
 ?>
 
 
-<h3>For Loop: Write a PHP script that will print the multiplication table of a number 
+<h3> 4. For Loop: Write a PHP script that will print the multiplication table of a number 
     (n, use form to get user input).</h3>
 
     <!-- The form for user input -->
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 
-<h3>While Loop: Write a PHP script that will print all the numbers from 1 to n. (use form to get user input)</h3>
+<h3> 5. While Loop: Write a PHP script that will print all the numbers from 1 to n. (use form to get user input)</h3>
 
 
 
@@ -114,12 +114,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+<h3> 6. Foreach Loop: Write a PHP script that will print all the elements of an array. $myarray=("HTML", "CSS", "PHP", "JavaScript")</h3>
 
+<?php
+// Define the array
+$myarray = array("HTML", "CSS", "PHP", "JavaScript");
 
-</body>
-</html>
-
-
+// Use foreach loop to iterate through the array and print each element
+foreach ($myarray as $element) {
+    echo $element . "<br>";
+}
+?>
 
 <?php
 include 'footer.php'; ?>
