@@ -3,8 +3,10 @@ $title = "Exercise 3: Variable, Strings & Operators";
 include 'header.php'; ?>
 
 <h4>2. Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname.
-  Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag. Table & Form Guide</h4>
- <h4>3.  Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your head tag. BootStrap Guide </h4>
+  Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.”
+   inside an h3 tag. Table & Form Guide</h4>
+ <h4>3.  Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your head tag.
+     BootStrap Guide </h4>
 
     <div class="container mt-5">
         <form method="post" action="wellcom.php">
