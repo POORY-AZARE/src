@@ -25,7 +25,7 @@
           <a href="?lang=fi">FI</a>
         </div>
       </nav>
-      <!-- New Section for Special Message -->
+      
       <div class="special-message">
 
       </div>
