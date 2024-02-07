@@ -1,4 +1,6 @@
+<?php include '../header.php'; ?>
 <?php
+
 include 'pz.php'; 
 
 // SQL query to retrieve data from the 'TestDriveBookings' table
@@ -45,3 +47,4 @@ if ($result->num_rows > 0) {
 // Close the database connection when done
 $conn->close();
 ?>
+<?php include '../footer.php'; ?>
