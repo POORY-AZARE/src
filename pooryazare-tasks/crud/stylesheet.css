@@ -9,9 +9,7 @@ main {
   padding-right: 25px;
   line-height: 1.6;
 }
-h3 {
-  color: bisque;
-}
+
 header {
   height: auto;
   min-height: 20vh;
