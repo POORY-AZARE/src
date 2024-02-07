@@ -1,5 +1,5 @@
 <?php include '../header.php'; ?>
-<h2>Book Your Test Drive:</h2>
+<h2>Rent Your Favorite Car:</h2>
 <form name="testDriveForm" method="post" action="process.php">
     <div class="form-group">
         <div class="row">
