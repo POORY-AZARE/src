@@ -1,5 +1,4 @@
 <?php
-// Check if the 'submitTestDrive' button in the form was clicked
 if (isset($_POST['submitTestDrive'])) {
     // Retrieve data from the form and store it in variables
     $FirstName = $_POST['FirstName'];     
