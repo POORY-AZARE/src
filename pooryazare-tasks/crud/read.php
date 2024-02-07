@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
     // Loop through the result set and display data in rows
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
-                <td>{$row['BookingID']}</td>
+                <td><a href='updatesingle.php?id=$row[BookingID]'>$row[BookingID]</a></td>
                 <td>{$row['FirstName']}</td>
                 <td>{$row['LastName']}</td>
                 <td>{$row['Email']}</td>
