@@ -18,6 +18,7 @@
           <a href="ex3.php">EXERCISE 3</a>
           <a href="ex4.php">EXERCISE 4</a>
           <a href="#">EXERCISE 5</a>
+          <a href="crud\index.php">EXERCISE 7</a>
           
         </div>
         <div class="language-switcher">
