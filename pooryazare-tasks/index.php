@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+<?php include 'header.php'; ?>
 <h2>Rent Your Favorite Car:</h2>
 <form name="testDriveForm" method="post" action="process.php">
     <div class="form-group">
@@ -38,4 +38,4 @@ ELECTRIC</option>
     </div>
     <button type="submit" class="btn btn-primary" name="submitTestDrive">Submit</button>
 </form>
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>

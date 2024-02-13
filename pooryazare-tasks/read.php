@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+<?php include 'header.php'; ?>
 <?php
 
 include 'pz.php'; 
@@ -47,4 +47,4 @@ if ($result->num_rows > 0) {
 // Close the database connection when done
 $conn->close();
 ?>
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>
