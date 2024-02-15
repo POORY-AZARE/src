@@ -18,7 +18,6 @@
           <a href="ex3.php">EXERCISE 3</a>
           <a href="ex4.php">EXERCISE 4</a>
           <a href="read.php">creat data</a>
-          <a href="#">read data</a>
           <a href="index.php">EXERCISE 7</a>
           
         </div>
